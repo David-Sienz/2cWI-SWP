@@ -11,8 +11,15 @@ let bananaPricePerPiece = 2.14*0.22;
 let applePricePerPiece = 3.43*0.34;
 
 
+let AnzahlBananenProKilo = 1/bananAverageWeightInKilo
+console.log("Anzahl von Bananen pro Kilo: " + AnzahlBananenProKilo);
 
-console.log("Anzahl Bananen/Äpfel pro Kilo, Preis pro Banane/Apfel");
+let AnzahlÄpfelProKilo = 1/appleAverageWeightInKilo
+console.log("Anzahl von Äpfeln pro Kilo: " + AnzahlÄpfelProKilo);
+
+console.log("Banane Preis pro Stück: " + bananaPricePerPiece);
+
+console.log("Apfel Preis pro Stück: " + applePricePerPiece);
 
 let eightApples = applePricePerPiece*8
 console.log("Acht Äpfel kosten " + eightApples + "€");
