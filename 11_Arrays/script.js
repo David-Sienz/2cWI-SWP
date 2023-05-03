@@ -19,6 +19,6 @@ console.log("");
 
 let friends = ["Damien", "Dragan", "Raphael"];
 
-friends.push("Ömer");
+friends.push("Halil");
 
 console.log("Meine Freunde sind " + friends[0] + ", " + friends[1] + ", " + friends[2] + ", " + friends[3]);
